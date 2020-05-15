@@ -1,172 +1,180 @@
 /* overides some boot strap settings */
 #bootstrap-body-override {
-  text-align: center;
-  margin: 0;
+	text-align: center;
+	margin: 0;
 }
 
 /* centers items in nav bar */
+
 .navbar-nav {
-  float: none;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
 }
 
-.navbar-nav>li {
-  display: inline-block;
-  float: none;
+.navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+
+.nav-link {
+	margin: 0px 20px 0px 20px;
+	font-size: large;
 }
 
 /* intro section */
 #intro {
-  padding: 0px 0px 190px 0px;
-  background-image: url(images/image7.jpg);
-  background-size: cover;
-  background-position: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #c7f0db;
+	padding: 0px 0px 190px 0px;
+	background-image: url(images/image7.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: "Montserrat", sans-serif;
+	color: #c7f0db;
 }
 
-#intro>h4 {
-  padding-top: 25%;
-  color: #464159;
+#intro > h4 {
+	padding-top: 25%;
+	color: #464159;
 }
 
-#intro>h1 {
-  padding-top: 50px;
-  letter-spacing: 3px;
-  font-size: 60px;
-  padding-bottom: 10px;
+#intro > h1 {
+	padding-top: 50px;
+	letter-spacing: 3px;
+	font-size: 60px;
+	padding-bottom: 10px;
 }
 
-#intro>h3 {
-  padding-bottom: 20px;
+#intro > h3 {
+	padding-bottom: 20px;
 }
 
 .rsvp-btn {
-  border-radius: 40px !important;
-  padding: 10px 30px !important;
-  color: #464159 !important;
+	border-radius: 40px !important;
+	padding: 10px 30px !important;
+	color: #464159 !important;
 }
 
 /* story section */
 #story {
-  padding: 100px 0px 100px 0px;
-  background-color: #dff6f0;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+	padding: 100px 0px 100px 0px;
+	background-color: #dff6f0;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
 }
 
 .dits {
-  padding-top: 20px;
-  padding-left: 20%;
-  padding-right: 20%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+	padding-top: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
 }
 
 .brown-font {
-  color: rgba(28, 13, 10, .9);
+	color: rgba(28, 13, 10, 0.9);
 }
 
 .pink-font {
-  color: #f67280;
+	color: #f67280;
 }
 
 .brew {
-  padding-top: 10px;
-  padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 /* save the date section */
 #save-the-date {
-  background-color: #c2b0c9;
-  padding: 130px 150px 130px 150px;
-  color: #f4efd3;
-  background-image: url(images/image2.jpg);
-  background-size: cover;
-  background-position: center bottom 30%;
-  font-family: 'Montserrat', sans-serif;
+	background-color: #c2b0c9;
+	padding: 130px 150px 130px 150px;
+	color: #f4efd3;
+	background-image: url(images/image2.jpg);
+	background-size: cover;
+	background-position: center bottom 30%;
+	font-family: "Montserrat", sans-serif;
 }
 
 /* details section */
 #details {
-  background-color: #f4f4f4;
-  padding: 100px 0px 100px 0px;
-  font-family: 'Montserrat', sans-serif;
+	background-color: #f4f4f4;
+	padding: 100px 0px 100px 0px;
+	font-family: "Montserrat", sans-serif;
 }
 
-.ceremony>p {
-  line-height: 0.7rem;
+.ceremony > p {
+	line-height: 0.7rem;
 }
 
 .idos {
-  padding-top: 40px;
-  padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 
 .afterparty {
-  padding-top: 50px;
-  padding-bottom: 20px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 /* accomodations */
 #accomodations {
-  background-color: #d7c79e;
-  padding: 100px 0px 100px 0px;
-  font-family: 'Montserrat', sans-serif;
+	background-color: #d7c79e;
+	padding: 100px 0px 100px 0px;
+	font-family: "Montserrat", sans-serif;
 }
 
 .hotel {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  line-height: 0.7rem;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	line-height: 0.7rem;
 }
 
-#accomodations>p {
-  line-height: 0.7rem;
+#accomodations > p {
+	line-height: 0.7rem;
 }
 
 /* photos */
 #photos {
-  padding: 100px 0px 100px 0px;
-  font-family: 'Montserrat', sans-serif;
-  background-image:
-    linear-gradient(rgba(63, 127, 0, 0.45),
-      rgba(255, 0, 0, 0.45)),
-    /*top image using gradient*/
-    url(images/image8.jpg);
-  /*bottom image with picture */
-  background-size: cover;
-  background-position: center;
-  color: #c7f0db;
+	padding: 100px 0px 100px 0px;
+	font-family: "Montserrat", sans-serif;
+	/*top image using gradient*/
+	background-image: radial-gradient(
+			circle,
+			rgba(63, 94, 251, 0.2) 0%,
+			rgba(252, 70, 107, 0.2) 100%
+		),
+		/*bottom image with picture */ url(images/image8.jpg);
+
+	background-size: cover;
+	background-position: center;
+	color: #c7f0db;
 }
 
-#photos>h1 {
-  font-size: 50px;
-  padding-bottom: 20px;
+#photos > h1 {
+	font-size: 50px;
+	padding-bottom: 20px;
 }
 
 .row img {
-  margin: 10px 10px 10px 10px;
-  max-height: 80%;
-  max-width: 80%;
+	margin: 10px 10px 10px 10px;
+	max-height: 80%;
+	max-width: 80%;
 }
 
 /* registry */
 #registry {
-  padding: 100px 0px 100px 0px;
-  font-family: 'Montserrat', sans-serif;
+	padding: 100px 0px 100px 0px;
+	font-family: "Montserrat", sans-serif;
 }
 
 /* footer */
 #footer {
-  color: #fdf0f6;
-  background-color: #373640;
-  padding: 10px;
+	color: #fdf0f6;
+	background-color: #373640;
+	padding: 10px;
 }
 
 .social-icon {
-  margin: 20px 10px;
-  color: green;
+	margin: 20px 10px;
+	color: green;
 }
